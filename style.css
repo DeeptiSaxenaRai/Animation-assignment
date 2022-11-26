@@ -1,0 +1,224 @@
+/* Set the body */
+body {
+  max-width: 100%;
+  text-align: center;
+}
+/* Set the position for main div with color */
+.main {
+  width: 700px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background: linear-gradient(120deg, #5cff00, #ffffff, #ff7e00);
+}
+/* set main HTML */
+p {
+  margin: 50px;
+  font-family: "Lobster", cursive;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* Set first letter in all block */
+h1::first-letter {
+  color: #012a4a;
+  font-size: xxx-large;
+  text-shadow: 3px 2px white;
+}
+/* Set remaining letter in all block */
+h1::first-line {
+  color: #2c7da0;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+/* Set all block in line */
+.container,
+h1 {
+  display: inline-block;
+}
+/* Design all block color and margin */
+#h,
+#t,
+#m,
+#l {
+  background-color: rgb(185, 185, 94);
+  margin: 2px;
+  border: 2px solid brown;
+  border-radius: 10px;
+}
+/* Set letter l for animation */
+#l {
+  width: 120px;
+  height: 80px;
+  position: relative;
+  animation-name: divl;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+/* Set animation frames for letter l */
+@keyframes divl {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  20% {
+    background-color: orange;
+    left: 0px;
+    top: 200px;
+  }
+  40% {
+    background-color: yellow;
+    left: -200px;
+    top: 200px;
+  }
+  60% {
+    background-color: green;
+    left: -400px;
+    top: 200px;
+  }
+  80% {
+    background-color: blue;
+    left: -400px;
+    top: 0px;
+  }
+  100% {
+    background-color: violet;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* Set letter m for animation */
+#m {
+  width: 120px;
+  height: 80px;
+  position: relative;
+  animation-name: divm;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+}
+/* Set animation frames for letter m */
+@keyframes divm {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  20% {
+    background-color: orange;
+    left: 150px;
+    top: 0px;
+  }
+  40% {
+    background-color: yellow;
+    left: 150px;
+    top: 200px;
+  }
+  60% {
+    background-color: green;
+    left: -280px;
+    top: 200px;
+  }
+  80% {
+    background-color: blue;
+    left: -280px;
+    top: 0px;
+  }
+  100% {
+    background-color: violet;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* Set letter t for animation */
+#t {
+  width: 120px;
+  height: 80px;
+  position: relative;
+  animation-name: divt;
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-iteration-count: 2;
+}
+/* Set animation frames for letter t */
+@keyframes divt {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  20% {
+    background-color: orange;
+    left: 280px;
+    top: 0px;
+  }
+  40% {
+    background-color: yellow;
+    left: 280px;
+    top: 200px;
+  }
+  60% {
+    background-color: green;
+    left: -160px;
+    top: 200px;
+  }
+  80% {
+    background-color: blue;
+    left: -160px;
+    top: 0px;
+  }
+  100% {
+    background-color: violet;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* Set letter h for animation */
+#h {
+  width: 120px;
+  height: 80px;
+  position: relative;
+  animation-name: divh;
+  animation-duration: 10s;
+  animation-delay: 6s;
+  animation-iteration-count: 2;
+}
+/* Set animation frames for letter h */
+@keyframes divh {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  20% {
+    background-color: orange;
+    left: 400px;
+    top: 0px;
+  }
+  40% {
+    background-color: yellow;
+    left: 400px;
+    top: 200px;
+  }
+  60% {
+    background-color: green;
+    left: -50px;
+    top: 200px;
+  }
+  80% {
+    background-color: blue;
+    left: -50px;
+    top: 0px;
+  }
+  100% {
+    background-color: violet;
+    left: 0px;
+    top: 0px;
+  }
+}
